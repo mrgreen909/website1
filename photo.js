@@ -6,7 +6,7 @@ let hero = document.getElementById("hero");
 
 let backgroundImg = new Array(
     "bean.png",
-    "unicorn.jpg",
+    "unicorn2.png",
     "Design.png",
     "binarium2.png",
     "blume.png",
