@@ -1,0 +1,271 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#hero{
+    width: 55%;
+    height: 100vh;
+    background-image: url('bean.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    left: 680px;
+    
+}
+
+.navbar{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 10;
+}
+
+
+
+.navbar .logo{
+    width: 60px;
+    margin: 30px 0;
+    cursor: pointer;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+}
+
+.user img{
+    width: 30px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+button{
+    padding: 8px 25px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.double{
+    width: 50%;
+    height: 100vh;
+    background:black;
+    backdrop-filter: blur(10px);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.one{
+    font-size: 30px;
+    letter-spacing: 5px;
+    position: relative;
+    bottom: 140px;
+    left: 190px;
+    position: relative;
+    
+    bottom: 800px;
+    width: 550px;
+        color: rgb(252, 95, 147);
+        right: 0;
+        top: 40%;
+        transform: translateY(-50%);
+    }
+
+
+.three{
+    width: 550px;
+    color: rgb(202, 20, 105);
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 900px;
+
+
+}
+
+.long{
+    position: relative;
+    left: 100px;
+}
+
+.love{
+    position: relative;
+    top: 200px;
+    right: 100px;
+}
+
+.action{
+    position: relative;
+    left: 10px;
+}
+
+#speed{
+    position: relative;
+    left: 50px;
+}
+
+
+
+.info{
+    width: 550px;
+    color: rgb(202, 20, 105);
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.info h1{
+    font-size: 60px;
+    letter-spacing: 10px;
+    position: relative;
+    bottom: 140px;
+    right: 180px;
+    position: relative;
+    right: 500px;
+    
+}
+
+
+
+.box{
+    font-size: 35px;
+    font-weight: bold;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-family: century gothic;
+    right: 440px;
+}
+
+.b1{
+    animation: ani1 15s infinite;
+}
+
+.b2{
+    animation: ani2 15s infinite;
+}
+
+.b3{
+    animation: ani3 15s infinite;
+}
+
+.b4{
+    animation: ani4 15s infinite;
+}
+
+.b5{
+    animation: ani5 15s infinite;
+}
+
+@keyframes ani1{
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    20%{
+        opacity: 0;
+    }
+}
+
+@keyframes ani2{
+    20%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 1;
+    }
+    40%{
+        opacity: 0;
+    }
+}
+
+@keyframes ani3{
+    40%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 0;
+    }
+}
+
+@keyframes ani4{
+    60%{
+        opacity: 0;
+    }
+    70%{
+        opacity: 1;
+    }
+    80%{
+        opacity: 0;
+    }
+}
+
+@keyframes ani5{
+    80%{
+        opacity: 0;
+    }
+    90%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+
+
+
+.slider{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 110px;
+    bottom: 50px;
+    
+}
+
+#prev, #next{
+    width: 60px;
+    cursor: pointer;
+    
+}
+
+.preview{
+    display: flex;
+    align-items: center;
+    margin: 0 60px;
+}
+
+.preview img{
+    width: 60px;
+    margin: 0 10px;
+    opacity: 0.4;
+}
+
+.preview .active{
+    display: block;
+    border: 3px solid #fff;
+    width: 100px;
+    opacity: 1;
+}
